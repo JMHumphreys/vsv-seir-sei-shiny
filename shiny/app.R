@@ -25,7 +25,6 @@ seir_vect_f = function(time, state, parameters) {
   } )
 }
 
-
 breakfunc = function(x) {
   origin = as.Date("2014-01-01")
   days = origin + x
